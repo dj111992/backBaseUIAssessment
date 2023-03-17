@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-17T17:40:49 IST" name="Backbase UI Tests Assessment" finished-at="2023-03-17T17:44:28 IST" duration-ms="218809">
+    <groups>
+    </groups>
+    <test started-at="2023-03-17T17:40:49 IST" name="Chrome execution" finished-at="2023-03-17T17:44:28 IST" duration-ms="218809">
+      <class name="ConduitSettingsTest">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:ConduitSettingsTest@7f353d99]" started-at="2023-03-17T17:41:56 IST" name="preCondition" finished-at="2023-03-17T17:42:09 IST" duration-ms="13447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="assertThatSettingsPageIsAccessible()[pri:0, instance:ConduitSettingsTest@7f353d99]" started-at="2023-03-17T17:42:09 IST" name="assertThatSettingsPageIsAccessible" description="Checking if Settings page is accessible and loaded fine" finished-at="2023-03-17T17:42:12 IST" duration-ms="2742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertThatSettingsPageIsAccessible -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:ConduitSettingsTest@7f353d99]" started-at="2023-03-17T17:42:12 IST" name="postCondition" finished-at="2023-03-17T17:42:12 IST" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- ConduitSettingsTest -->
+      <class name="ConduitHomePageTest">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:ConduitHomePageTest@14b789f6]" started-at="2023-03-17T17:40:49 IST" name="preCondition" finished-at="2023-03-17T17:41:04 IST" duration-ms="15074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="assertPaginationHomePage()[pri:0, instance:ConduitHomePageTest@14b789f6]" started-at="2023-03-17T17:41:05 IST" name="assertPaginationHomePage" description="Check for pagination and user should be able to click on pages" finished-at="2023-03-17T17:41:09 IST" duration-ms="4104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertPaginationHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ConduitHomePageTest@14b789f6]" started-at="2023-03-17T17:41:09 IST" name="tearDown" finished-at="2023-03-17T17:41:10 IST" duration-ms="749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:ConduitHomePageTest@14b789f6]" started-at="2023-03-17T17:41:10 IST" name="preCondition" finished-at="2023-03-17T17:41:24 IST" duration-ms="14638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="assertThatListTagsGreaterThan100()[pri:0, instance:ConduitHomePageTest@14b789f6]" started-at="2023-03-17T17:41:24 IST" name="assertThatListTagsGreaterThan100" description="Checking if number of list tags is greater than 100" finished-at="2023-03-17T17:41:25 IST" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertThatListTagsGreaterThan100 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ConduitHomePageTest@14b789f6]" started-at="2023-03-17T17:41:25 IST" name="tearDown" finished-at="2023-03-17T17:41:26 IST" duration-ms="1116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:ConduitHomePageTest@14b789f6]" started-at="2023-03-17T17:41:26 IST" name="preCondition" finished-at="2023-03-17T17:41:40 IST" duration-ms="14049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="assertThatNumberOfArticlesEquals10GlobalFeed()[pri:0, instance:ConduitHomePageTest@14b789f6]" started-at="2023-03-17T17:41:40 IST" name="assertThatNumberOfArticlesEquals10GlobalFeed" description="Checking if number of articles equals 10 in global Feed" finished-at="2023-03-17T17:41:40 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertThatNumberOfArticlesEquals10GlobalFeed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ConduitHomePageTest@14b789f6]" started-at="2023-03-17T17:41:40 IST" name="tearDown" finished-at="2023-03-17T17:41:40 IST" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:ConduitHomePageTest@14b789f6]" started-at="2023-03-17T17:41:40 IST" name="preCondition" finished-at="2023-03-17T17:41:54 IST" duration-ms="13647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="assertThatNumberOfArticlesInSpecificTag()[pri:0, instance:ConduitHomePageTest@14b789f6]" started-at="2023-03-17T17:41:54 IST" name="assertThatNumberOfArticlesInSpecificTag" description="Checking number of articles in specific tag and tag tab is opened" finished-at="2023-03-17T17:41:55 IST" duration-ms="1029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertThatNumberOfArticlesInSpecificTag -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ConduitHomePageTest@14b789f6]" started-at="2023-03-17T17:41:55 IST" name="tearDown" finished-at="2023-03-17T17:41:56 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ConduitHomePageTest -->
+      <class name="ConduitProfilePageTest">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:ConduitProfilePageTest@e84fb85]" started-at="2023-03-17T17:40:31 IST" name="preCondition" finished-at="2023-03-17T17:40:49 IST" duration-ms="18036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="assertForUserInfoUnderProfileSection()[pri:0, instance:ConduitProfilePageTest@e84fb85]" started-at="2023-03-17T17:44:23 IST" name="assertForUserInfoUnderProfileSection" description="Checking for user info on profile section" finished-at="2023-03-17T17:44:25 IST" duration-ms="2409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertForUserInfoUnderProfileSection -->
+        <test-method signature="assertForUserProfileSettingsSection()[pri:0, instance:ConduitProfilePageTest@e84fb85]" started-at="2023-03-17T17:44:25 IST" name="assertForUserProfileSettingsSection" description="Checking for user profile settings" finished-at="2023-03-17T17:44:28 IST" duration-ms="2704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertForUserProfileSettingsSection -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:ConduitProfilePageTest@e84fb85]" started-at="2023-03-17T17:44:28 IST" name="postCondition" finished-at="2023-03-17T17:44:28 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- ConduitProfilePageTest -->
+      <class name="ConduitEditorPageTest">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:ConduitEditorPageTest@3c5dbdf8]" started-at="2023-03-17T17:42:12 IST" name="preCondition" finished-at="2023-03-17T17:42:26 IST" duration-ms="13855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="assertForAddingNewArticle()[pri:0, instance:ConduitEditorPageTest@3c5dbdf8]" started-at="2023-03-17T17:42:26 IST" name="assertForAddingNewArticle" description="Checking for user adding a new article" finished-at="2023-03-17T17:42:33 IST" duration-ms="7068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertForAddingNewArticle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ConduitEditorPageTest@3c5dbdf8]" started-at="2023-03-17T17:42:33 IST" name="tearDown" finished-at="2023-03-17T17:42:35 IST" duration-ms="1550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:ConduitEditorPageTest@3c5dbdf8]" started-at="2023-03-17T17:42:35 IST" name="preCondition" finished-at="2023-03-17T17:42:50 IST" duration-ms="15521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="assertForCommentSectionSavedArticle()[pri:0, instance:ConduitEditorPageTest@3c5dbdf8]" started-at="2023-03-17T17:42:50 IST" name="assertForCommentSectionSavedArticle" description="Checking for comment section in a saved article" finished-at="2023-03-17T17:42:56 IST" duration-ms="6100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertForCommentSectionSavedArticle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ConduitEditorPageTest@3c5dbdf8]" started-at="2023-03-17T17:42:56 IST" name="tearDown" finished-at="2023-03-17T17:42:57 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:ConduitEditorPageTest@3c5dbdf8]" started-at="2023-03-17T17:42:57 IST" name="preCondition" finished-at="2023-03-17T17:43:11 IST" duration-ms="14055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="assertForDeleteArticleButtonNotVisibleNonAuthorArticle()[pri:0, instance:ConduitEditorPageTest@3c5dbdf8]" started-at="2023-03-17T17:43:11 IST" name="assertForDeleteArticleButtonNotVisibleNonAuthorArticle" description="Checking for delete article button not visible" finished-at="2023-03-17T17:43:17 IST" duration-ms="6128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertForDeleteArticleButtonNotVisibleNonAuthorArticle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ConduitEditorPageTest@3c5dbdf8]" started-at="2023-03-17T17:43:17 IST" name="tearDown" finished-at="2023-03-17T17:43:17 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:ConduitEditorPageTest@3c5dbdf8]" started-at="2023-03-17T17:43:17 IST" name="preCondition" finished-at="2023-03-17T17:43:31 IST" duration-ms="13376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="assertForDeletingArticle()[pri:0, instance:ConduitEditorPageTest@3c5dbdf8]" started-at="2023-03-17T17:43:31 IST" name="assertForDeletingArticle" description="Checking for deleting a saved article" finished-at="2023-03-17T17:43:39 IST" duration-ms="7700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertForDeletingArticle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ConduitEditorPageTest@3c5dbdf8]" started-at="2023-03-17T17:43:39 IST" name="tearDown" finished-at="2023-03-17T17:43:39 IST" duration-ms="490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:ConduitEditorPageTest@3c5dbdf8]" started-at="2023-03-17T17:43:39 IST" name="preCondition" finished-at="2023-03-17T17:43:54 IST" duration-ms="14600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="assertForEditingSavedArticle()[pri:0, instance:ConduitEditorPageTest@3c5dbdf8]" started-at="2023-03-17T17:43:54 IST" name="assertForEditingSavedArticle" description="Checking for user editing a saved article" finished-at="2023-03-17T17:43:59 IST" duration-ms="5574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertForEditingSavedArticle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ConduitEditorPageTest@3c5dbdf8]" started-at="2023-03-17T17:43:59 IST" name="tearDown" finished-at="2023-03-17T17:44:00 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:ConduitEditorPageTest@3c5dbdf8]" started-at="2023-03-17T17:44:00 IST" name="preCondition" finished-at="2023-03-17T17:44:13 IST" duration-ms="13474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="assertForSavingOfNewCommentUsingCommentSection()[pri:0, instance:ConduitEditorPageTest@3c5dbdf8]" started-at="2023-03-17T17:44:13 IST" name="assertForSavingOfNewCommentUsingCommentSection" description="Checking for new comment saving from comment section in a saved article" finished-at="2023-03-17T17:44:22 IST" duration-ms="9462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertForSavingOfNewCommentUsingCommentSection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ConduitEditorPageTest@3c5dbdf8]" started-at="2023-03-17T17:44:22 IST" name="tearDown" finished-at="2023-03-17T17:44:23 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ConduitEditorPageTest -->
+    </test> <!-- Chrome execution -->
+  </suite> <!-- Backbase UI Tests Assessment -->
+</testng-results>

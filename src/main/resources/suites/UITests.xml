@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Backbase UI Tests Assessment" verbose="2" parallel="tests" thread-count="99">
+
+    <test name="Chrome execution">
+        <classes>
+            <class name="ConduitHomePageTest"/>
+            <class name="ConduitSettingsTest"/>
+            <class name="ConduitEditorPageTest"/>
+            <class name="ConduitProfilePageTest"/>
+        </classes>
+    </test>
+
+</suite>
